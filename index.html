@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>英语问答社区</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css"
+    integrity="sha256-A47OwxL/nAN0ydiDFTSGX7ftbfTJTKgiJ0zqCuTPDh4=" crossorigin="anonymous" />
+  <link href="style.css" rel="stylesheet">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KNGNX3T3JE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-KNGNX3T3JE');
+  </script>
+</head>
+
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-blue">
+    <img class="mr-3" src="tax_icon_white.png" alt="" width="40" height="40">
+    <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="">首页<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">问题列表</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">学习资源</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">考试资源</a>
+        </li>
+        <li class="nav-item">
+          <div class="SearchBox">
+            <div class="inputArea">
+              <div class="inputWrap">
+                <div class="searchSpace search"></div>
+                <input type="text" class="inputBox search" maxlength="2048" name="question" placeholder="搜索问题与答案">
+              </div>
+            </div>
+            <button class="searchBtn" type="submit">
+              <div class="svgArea">
+                <span class="searchIcon">
+                  <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                    </path>
+                  </svg>
+                </span>
+              </div>
+            </button>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav align-items-end">
+        <li class="nav-item">
+          <span></span>
+          <button class="btn btn-danger my-2 my-sm-0">提问</button>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">消息</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">通知</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">用户账号</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">个人资料</a>
+            <a class="dropdown-item" href="#">设置</a>
+            <a class="dropdown-item" href="#">退出登录</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="nav-scroller bg-white shadow-sm">
+    <nav class="nav nav-underline">
+      <a class="nav-link active" href="#">关注热点</a>
+      <a class="nav-link" href="#">知识探索</a>
+      <a class="nav-link" href="#">资源推荐</a>
+      <a class="nav-link" href="#">
+        你的学友<span class="badge badge-pill bg-light align-text-bottom">27</span>
+      </a>
+    </nav>
+  </div>
+
+  <main role="main" class="container">
+    <div class="d-flex align-items-center p-3 my-3 text-white-75 bg-blue rounded shadow-sm">
+      <div class="lh-100">
+        <h3 class="mb-0 text-white lh-100">还在为哑巴英语烦恼吗？</h3>
+        <br>
+        <p>最有效的英语训练方法就在这里！</p>
+      </div>
+    </div>
+
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+      <h4 class="border-bottom border-gray pb-2 mb-0">最新问题</h4>
+      <div class="media pt-3">
+        <div class="article">
+          <h5 class="question">如何快速的记忆单词?</h5>
+          <span class="user-headline">
+            <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#007bff" /><text x="50%" y="50%" fill="#007bff"
+                dy=".3em">32x32</text>
+            </svg>
+            <span class="username"><strong class="text-gray-dark">@Tony Wang（认证专家）</strong>, 新东方英语金牌讲师</span>
+          </span>
+          <p class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">
+            人脑有一个特点，对某个信息要反复刺激才能记住。循环记忆法，就是基于这点。它的诀窍，就是二二循环，在不断的快速循环记忆中记牢单词。我国在五十年代广泛推广俄语时，就是采用这个方法来达到俄语速成的。
+
+            一般的人，在叫熟练掌握它后，能每小时记住100个单词。有的人还可以记住150个单词。而我的平均速度，达到225个。            <small class="d-block text-right mt-3">
+              <a href="#">阅读全文</a>
+            </small>
+          </p>
+        </div>
+      </div>
+      <div class="media pt-3">
+        <div class="article">
+          <h5 class="question">如何才能讲一口流利的英语？</h5>
+          <span class="user-headline">
+            <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#e83e8c" /><text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text>
+          </svg>
+            <span class="username"><strong class="text-gray-dark">@学科英语（已认证官方账号）</strong>, 最专业的英语教育</span>
+          </span>
+          <p class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">
+            作为英语初学者，或者学习多年但口语很烂，初期的目标就是提升生活类英语。因为生活类英语难度没有那么大，不涉及专业知识。首先，练习的素材选择很重要，因为选择的素材基本奠定了学习的方向。如果你选择的素材是偏于专业性知识的，那你就直接跳过了这个阶段进入了学术类口语。很多人在谈学术类问题，进行演讲，采访时，口语表达没有大问题。
+            <small class="d-block text-right mt-3">
+              <a href="#">阅读全文</a>
+            </small>
+          </p>
+        </div>
+      </div>
+      <div class="media pt-3">
+        <div class="article">
+          <h5 class="question">如何备考雅思?</h5>
+          <span class="user-headline">
+            <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#6f42c1" /><text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text>
+            </svg>
+            <span class="username"><strong class="text-gray-dark">@Emily Chen（认证会员）</strong>, 北外英语专业。</span>
+          </span>
+          <p class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">
+            当我大学毕业第十个年头决定考雅思移民，经过1年的“扒自己一层皮式”全程自学，最终在第三次烤鸭时拿到了我申请移民所需要的成绩，具体为听力6.5，阅读6.5，口语7，写作6。作为英语渣的我，作为四级都考不过的我，想把我当时的经历和经验写下来，希望可以有些启发。
+            <small class="d-block text-right mt-3">
+              <a href="#">阅读全文</a>
+            </small>
+          </p>
+          
+        </div>
+      </div>
+      <small class="d-block text-right mt-3">
+        <a href="#">更多热门回答</a>
+      </small>
+    </div>
+
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+      <h4 class="border-bottom border-gray pb-2 mb-0">活跃用户</h4>
+      <div class="media text-muted pt-3">
+        <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#007bff" /><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text>
+        </svg>
+        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <strong class="text-gray-dark">Full Name</strong>
+            <a href="#">Follow</a>
+          </div>
+          <span class="d-block">@username</span>
+        </div>
+      </div>
+      <div class="media text-muted pt-3">
+        <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#007bff" /><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text>
+        </svg>
+        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <strong class="text-gray-dark">Full Name</strong>
+            <a href="#">Follow</a>
+          </div>
+          <span class="d-block">@username</span>
+        </div>
+      </div>
+      <div class="media text-muted pt-3">
+        <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#007bff" /><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text>
+        </svg>
+        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <strong class="text-gray-dark">Full Name</strong>
+            <a href="#">Follow</a>
+          </div>
+          <span class="d-block">@username</span>
+        </div>
+      </div>
+      <small class="d-block text-right mt-3">
+        <a href="#">All suggestions</a>
+      </small>
+    </div>
+
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+    integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04=" crossorigin="anonymous"></script>
+  <script src="offcanvas.js"></script>
+</body>
+
+</html>
